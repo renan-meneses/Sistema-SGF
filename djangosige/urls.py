@@ -15,6 +15,7 @@ urlpatterns = [
     url(r'^compras/', include('djangosige.apps.compras.urls')),
     url(r'^financeiro/', include('djangosige.apps.financeiro.urls')),
     url(r'^estoque/', include('djangosige.apps.estoque.urls')),
+    url(r'^rh/', include('djangosige.apps.rh.urls')),
 ]
 
 if DEBUG is True:

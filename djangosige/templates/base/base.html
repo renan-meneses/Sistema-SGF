@@ -55,7 +55,7 @@
                 <a href="javascript:void(0);" class="bars"></a>
                 <div class="navbar-brand">
                 	<!-- Main icone, data e horario -->
-                    <span><a href="{% url 'base:index' %}">S<b style="color:#e76d64;">GF</b></a></span>
+                    <span><a href="{% url 'base:index' %}">S<b style="color:#e76d64;">GE</b></a></span>
                     <!--<span style="padding-left:30px;">Bem-vindo(a), <strong class="username-strong"></strong></span>-->
                     <span style="padding-left:25px;"><i class="material-icons">&#xE8DF;</i></span>
                     <span>{%now "l, j/m/Y"%}</span>
@@ -182,6 +182,26 @@
                                         </a>
                                     </li>
                                 </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">&#xE7EF;</i>
+                            <span>RH</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="#">
+                                    Colaboradores
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    Folha de pagamento
+                                </a>
                             </li>
 
                         </ul>
@@ -354,6 +374,47 @@
                                     </li>
                                 </ul>
                             </li>
+                            <li>
+                                <a href="javascript:void(0);" class="menu-toggle">
+                                    <i class="material-icons">&#xE227;</i>
+                                    <span>RH</span>
+                                </a>
+                                <ul class="ml-menu">
+                                    <li>
+                                        <a href="{% url 'financeiro:planocontasview' %}">
+                                            Plano de contas
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{% url 'financeiro:fluxodecaixaview' %}">
+                                            Fluxo de caixa
+                                        </a>
+                                    </li>
+        
+                                    <li>
+                                        <a href="{% url 'financeiro:listalancamentoview' %}">
+                                            Lançamentos
+                                        </a>
+                                    </li>
+        
+                                    <li>
+                                        <a href="javascript:void(0);" class="menu-toggle">
+                                            Entradas
+                                        </a>
+                                        <ul class="ml-menu">
+                                            <li>
+                                                <a href="{% url 'financeiro:listarecebimentosview' %}">
+                                                    Recebimentos
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'financeiro:listacontareceberview' %}">
+                                                    Contas a receber
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+        
 
                             <li>
                                 <a href="javascript:void(0);" class="menu-toggle">
@@ -428,7 +489,7 @@
             <!-- Footer -->
             <div class="legal">
                 <div class="copyright">
-                    &copy; 2019 <a href=""> SGF</a>.
+                    &copy; 2019 <a href="">S<b style="color:#e76d64;">GE</b></a>.
                 </div>
                 <div class="version">
                     <b>Versão: </b> {{versao}}

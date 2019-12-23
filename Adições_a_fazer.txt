@@ -1,0 +1,11 @@
+-adicionar
+[
++ adicionar a area de RH.
++ adicoonat o gerenciamento de colaboradores.
++ criar os formulario e o adiconar a contagen de funcionairios a area de 
+tela primcipal
+]
+-concluido
+[
+
+]
