@@ -1,4 +1,4 @@
-# DjangoSIGE [![Build Status]()]()
+# Sistem-SGF
 
 Sistema Integrado de Gestão Empresarial baseado em Django
 
